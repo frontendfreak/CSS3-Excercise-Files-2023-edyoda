@@ -1,0 +1,129 @@
+p {
+    /***
+        1. Color keywords or named colors (140)
+     */
+   /* color: gold; 
+   color: red;
+   color: green;  
+   color: yellow; */
+
+   /***
+    HexaDecimal format
+    Hex - (Six) (a, b, c, d, e, f)
+        +
+    Dec - (Ten) (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+    Sixteen - 
+
+    0 Min   f - Max (15)
+
+
+    RRGGBB
+    000000 Min (Black)
+    333333 (Darker Shade of gray)
+    777777 (Gray Shades)
+
+    aaaaaa (Light Gray)
+    ffffff Max (White)
+
+
+    RR * GG * BB
+
+    FF * FF * FF
+
+    16*16 * 16*16 * 16*16
+
+    256 * 256 * 256
+
+    = 16M +
+
+   */
+
+
+   /* #RRGGBB */
+   /* color: #ffffff; */
+   /* color: #FFFFFF; */
+   /* color: #ff0000;
+   color: #ffff00; */
+
+   /* #RGB */
+   /* color: #f00; */
+   /* color: #f0f; */
+
+    /***
+        rgb()
+    */
+
+    /* color: rgb(R G B); */
+
+    /* Min - 0  & Max - 255 (256) */
+    /* color: rgb(0 255 0); */
+
+    /* color: rgb(R, G, B); */
+    /* color: rgb(255, 255, 0); */
+
+    /* color: rgb(-100 0 255); */
+    /* Negative value (0) */
+
+    /* color: rgb(345 0 0); */
+    /* Posive value > 255 (255) */
+
+
+    /* color: rgb(R% G% B%); */
+    /* color: rgb(0% 100% 100%); */
+    /* color: rgb(100% 0% 0%); */
+
+    /* color: rgb(100%, 100%, 0%); */
+
+    /* color: rgb(0 100% 0); */
+    /* This is not going to work because all the values should be in same format */
+
+    /***
+        hsl()
+
+        h - Hue (Degree)
+        s - Saturation (Percentage) (0% - Garay) (100% - Full Color (Actual Color))
+        l - Lightness (Percentage) (0% - Black) (100% - White)
+    */
+
+    /* color: hsl(123 100% 0%); */
+
+
+
+    /***
+        To make any element Transparent
+        "transparent" defined color keyword
+    */
+    /* color: transparent; */
+
+    /* #RRGGBBAA (Alpha Transparency)*/
+    /* color: #ff0000FF; */
+    /* color: #ff000077; */
+
+    /* #RGBA */
+    /* color: #f00f; */
+    /* color: #f000; */
+    /* color: #f007; */
+
+
+    /* Min 0   Max 1 (.1, .2, .25) */
+    /* color: rgba(0, 255, 0, 1); */
+    /* color: rgba(0 255 0 / 1); */
+
+    /* color: rgba(255 0 0 / .25); */
+    /* color: rgba(100% 0% 0% / .25); */
+
+    /* color: hsla(123, 100%, 50%, .25); */
+    /* color: hsla(123 100% 50% / .25); */
+
+
+    /* color: transparent; */
+
+    /* Min - 0  Max - 1 (.2, .25) */
+    /* opacity: 0; */
+
+
+    color: lime;
+
+    /* border: 1px solid currentColor; */
+    background-color: currentColor;
+}
