@@ -1,0 +1,208 @@
+h1 {
+    /* color: blue; */
+
+    /* ***
+        * Text Decoration
+    */
+    /* text-decoration-line: none; */
+    /* text-decoration-line: underline; */
+    /* text-decoration-line: line-through; */
+    /* text-decoration-line: overline; */
+
+    /* text-decoration-line: underline overline line-through; */
+
+    /* text-decoration-color: #f00 green blue; */
+
+    /* text-decoration-thickness: 5px; */
+
+    /* text-decoration-skip-ink: auto; */
+    /* text-decoration-skip-ink: none; */
+
+    /* text-underline-position: auto; */
+    /* text-underline-position: under; */
+
+    /* text-decoration-style: solid; */
+    /* text-decoration-style: dashed; */
+    /* text-decoration-style: dotted; */
+    /* text-decoration-style: double; */
+    /* text-decoration-style: wavy; */
+
+    /* text-decoration: #f00 underline 10px wavy; */
+
+    /* ***
+        * Text Shadow
+    */
+
+    /* text-shadow: x-offset(-ve +ve) y-offset(-ve +ve) blur-radius(px) color; */
+    /* text-shadow: 3px 3px 3px #777; */
+
+    /* text-shadow: 3px 3px 3px #777,
+    6px 6px 3px #459,
+    9px 9px 3px #f59; */
+
+    /* text-shadow: #f00 10px 10px 10px; */
+
+    /* text-shadow: 3px 3px 3px #f00,
+    6px 6px 3px #00f; */
+
+    /* ***
+        * Text Emphasis
+    */
+
+    /* text-emphasis-style: none; */
+    /* text-emphasis-style: open; */
+    /* text-emphasis-style: filled; */
+    /* text-emphasis-style: sesame; */
+    /* text-emphasis-style: circle; */
+    /* text-emphasis-style: triangle; */
+    /* text-emphasis-style: double-circle; */
+    /* text-emphasis-style: "D"; */
+    /* text-emphasis-style: "😍";  (Win + .)*/
+    /* text-emphasis-style: "😍"; */
+
+    /* text-emphasis-style: open sesame; */
+    /* text-emphasis-style: filled sesame; */
+
+    /* text-emphasis-style: open circle; */
+    /* text-emphasis-style: filled circle; */
+
+    /* text-emphasis-style: open triangle; */
+
+
+    /* text-emphasis-color: red; */
+
+
+    /* text-emphasis-position: over; */
+    /* text-emphasis-position: under; */
+
+
+    /* ***
+        * Text Transform
+    */
+
+    /* text-transform: none; */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+
+
+    
+    /* ***
+        * White Space
+    */
+
+
+    /* !
+        * 1. It will allow wrapping
+        * 2. It will not allow consecutive whitespace
+    */
+    /* white-space: normal; */
+
+    /* !
+        * 1. It will not allow wrapping
+        * 2. It will allow consecutive whitespace
+    */
+    /* white-space: pre; */
+
+
+    /* !
+        * 1. It will not allow wrapping
+        * 2. It will not allow consecutive whitespace
+    */
+
+    /* white-space: nowrap; */
+
+    /* !
+        *** (pre + wrap)
+        * 1. It will allow wrapping
+        * 2. It will allow consecutive whitespace
+    */
+
+    /* white-space: pre-wrap; */
+
+    /* !
+        *** (normal)
+        * 1. It will allow wrapping
+        * 2. It will not allow consecutive whitespace
+        * 3. It will allow segment break
+    */
+
+    /* white-space: pre-line; */
+
+}
+
+/* span {
+    text-emphasis-style: open triangle;
+} */
+
+p {
+     /* ***
+        * word break
+    */
+
+    /* word-break: break-all; */
+    /* word-break: keep-all; */
+
+    /* hyphens: none; */
+    /* hyphens: auto; */
+    /* !
+        * lang attribute is required for hyphens property
+    */
+
+
+    /* ***
+        * text align
+    */
+
+    /* 
+        * 1. If you are targetting block element, then it will align its text or inner content
+
+        * 2. If you have any inline / inline-block element inside the block element that will also be aligned according to its value
+    */
+
+    /* width: 50%; */
+    /* border: 5px solid red; */
+
+    /* text-align: left; */
+    /* text-align: center; */
+    /* text-align: right; */
+    /* text-align: justify; */
+
+    /* text-align-last: left; */
+    /* text-align-last: center; */
+    /* text-align-last: right; */
+    /* text-align-last: justify; */
+
+    /* display: inline-block; */
+
+    /* ***
+        * word spacing
+    */
+
+    /* word-spacing: normal; */
+    /* word-spacing: 15px; */
+
+
+    /* ***
+        * letter spacing
+    */
+
+    /* letter-spacing: normal; */
+    /* letter-spacing: 2px; */
+
+
+    /* ***
+        * letter spacing
+    */
+
+    /* text-indent: 40px; */
+    /* text-indent: 20%; */
+}
+
+/* div {
+    text-align: right;
+} */
+
+input {
+    text-indent: 20px;
+}
