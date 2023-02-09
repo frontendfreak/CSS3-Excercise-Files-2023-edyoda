@@ -1,0 +1,91 @@
+/************************************
+*      Type / Element Selector      *
+*************************************/
+
+/* p {
+    color: red;
+} */
+
+/************************************
+*              ID Selector          *
+*************************************/
+
+/* #para1 {
+    color: red;
+}
+
+#para2 {
+    color: greenyellow;
+}
+
+#para3 {
+    color: gold;
+} */
+
+/************************************
+*            Class Selector         *
+*************************************/
+
+/* .para1 {
+    color: red;
+}
+
+.para2 {
+    color: lime;
+}
+
+.para3 {
+    color: gold;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-purple {
+    color: purple;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+} */
+
+/************************************
+*            Group Selector         *
+*************************************/
+
+/* p {
+    text-transform: uppercase;
+}
+
+.heading3 {
+    text-transform: uppercase;
+}
+
+#heading5 {
+    text-transform: uppercase;
+} */
+
+
+/* p, 
+.heading3, 
+#heading5 {
+    text-transform: uppercase;
+} */
+
+
+/************************************
+*         Universal Selector        *
+*************************************/
+
+* {
+    color: red;
+}

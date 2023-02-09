@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,900&family=Lobster&display=swap');
+
+@font-face {
+    font-family: 'Danish';
+    src: url('../fonts/juice/JUICE_Regular.ttf');
+}
+
+@font-face {
+    font-family: 'MTH';
+    src: url('../fonts/Machington\ Demo\ 400.ttf');
+}
+
+h1 {
+    /* font-family: Lobster, sans-serif, fantasy, monospace, "Courier New", Georgia, 'Times New Roman', Times, serif; */
+
+    /* font-family: Lobster, cursive; */
+
+    /* font-family: Verdana; */
+    /* font-family: Lato;
+    font-weight: bold; */
+
+    /* font-style: normal; */
+    /* font-style: italic; */
+
+    /* font-family: mth; */
+}
+
+p {
+    /* font-size: 30px; */
+    /* font-family: 'Lato'; */
+    /* font-family: 'Lato'; */
+    /* font-family: serif; */
+    /* font-family: sans-serif; */
+
+    /* font-family: lato;
+    font-size: 48px; */
+
+    /* font-variant: normal; */
+
+    /* font-variant: small-caps; */
+
+    /* text-transform: capitalize; */
+
+
+    /* line-height: 100%; */
+
+    /* line-height: 1.5; */
+
+    /* border: 1px solid red; */
+
+    font-family: MTH, cursive;
+    font-size: 32px;
+
+    /* font-display: auto; */
+    /* font-display: block; */
+    /* font-display: swap; */
+    /* font-display: fallback;  */
+    /* 100s - Fallback font 3s - Fallback */
+    /* 100s - Fallback font 3s - Actual font */
+}
