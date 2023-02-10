@@ -1,0 +1,112 @@
+/*************************************
+*        Selector Combinators        *
+**************************************/
+/* 
+p {
+    color: red;
+} */
+
+/* .para {
+    color: gold;
+} */
+
+
+/*
+    * Descendant Combinator 
+    * Atleast one space should be there between parent and child selector
+    * It is also known as Child Combinator
+*/
+
+/* parent child(nth level depth position) {
+
+} */
+
+
+/* div article {
+    color: gold;
+} */
+
+/* div article p {
+    color: gold;
+} */
+
+/* p {
+    color: gold;
+} */
+
+
+/* main p {
+    color: red;
+} */
+
+/* main div p {
+    color: red;
+} */
+
+/* main article {
+    color: red;
+    border: 1px solid red;
+}
+
+main article p {
+    color: gold;
+    border: 1px solid lime;
+} */
+
+/*
+    * Immediate Child Combinator 
+    * between two selectors there should be one greater than (>) sign
+    * It is also known as Child Combinator
+*/
+
+
+/* main > div {
+    border: 1px solid red;
+} */
+
+/* .main > div {
+    color: red;
+} */
+
+/* main > div > p {
+    border: 1px solid red;
+} */
+
+
+/*
+    * Next Sibling / Adjacent Sibling Combinator 
+    * between two selectors there should be one plus (+) sign
+    * It is also known as Sibling Combinator
+*/
+
+/* 
+p + h1 {
+    color: red;
+} */
+
+/* p + h1 + h3 {
+    color: red;
+} */
+
+/* div + h1 + span + h3 {
+    color: greenyellow;
+} */
+
+/* main > section p + h3 {
+    color: red;
+} */
+
+
+/*
+    * General Sibling / Subsequent Sibling Combinator 
+    * between two selectors there should be one tilde (~) sign
+    * It is also known as Sibling Combinator
+*/
+
+main > p ~ h3 {
+    color: red;
+}
+
+/* p ~ span {
+    color: red;
+} */

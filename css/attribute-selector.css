@@ -1,0 +1,125 @@
+ /* p {
+    color: red;
+ }
+
+ a {
+    color: lime;
+ } */
+
+ /* [title] {
+    color: red;
+ } */
+
+ /* [class] {
+    color: red;
+ } */
+
+
+/* 
+    * Exact attribute value
+*/
+
+ /* [title = "This is para-3"] {
+    color: red;
+ } */
+
+
+ /* [title][href] {
+    color: red;
+ } */
+
+
+ /* a[title] {
+    color: red;
+ } */
+ 
+
+ /* p[title],
+ [href] {
+    color: red;
+ } */
+
+
+ /* 
+    * Attribute Pattern Matching
+*/
+
+/* ! 1. Exact Match */
+
+/* [title="Para-4"] {
+    color: red;
+} */
+
+/* ! 2. Starts with exact value or followed by a dash (-) */
+
+/* [title="Para-4"] {
+    color: red;
+}
+
+[title="Para-5"] {
+    color: red;
+} */
+
+/* [title="Para-4"],
+[title="Para-5"] {
+    color: red;
+} */
+
+/* [title="Para-4"],
+[title="Para-5"] {
+    color: red;
+} */
+
+/* [title |= "Para"] {
+    color: red;
+} */
+
+/* [lang |= "en"] {
+    color: red;
+} */
+
+/* ! 3. Search exact word anywhere in the value */
+
+/* [title ~= "Link"] {
+    color: red;
+} */
+
+
+/* ! 4. Starting with given cahracter or word */
+
+
+/* [href ^= "res"] {
+    color: red;
+} */
+
+/* [title ^= "Li"] {
+    color: red;
+} */
+
+/* ! 4. Ending with given cahracter or word */
+
+/* [href $= ".doc"] {
+    color: red;
+}
+
+[href $= ".pdf"] {
+    color: lime;
+}
+
+[href $= ".txt"] {
+    color: gold;
+} */
+
+/* ! 4. Search with any given cahracter or word wherever it is  */
+
+/* [href *= "."] {
+    color: red;
+} */
+
+/* [href *= "o"] {
+    color: red;
+} */
+
+/* [title *= "h"] {
+    color: red;
+} */
