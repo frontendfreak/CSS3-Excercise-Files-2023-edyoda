@@ -1,0 +1,21 @@
+/* p:not(.para5, .para2) {
+    color: lime;
+} */
+
+/* p:not(.para5):not(.para2) {
+    color: lime;
+} */
+
+/* p:nth-child(n):not(:nth-child(5)) {
+    color: red;
+} */
+
+p {
+    display: none;
+}
+
+p:target {
+    background-color: purple;
+    color: #fff;
+    display: block;
+}

@@ -1,0 +1,88 @@
+/* input:enabled {
+    border: 5px solid lime;
+}
+
+input:disabled {
+    border: 5px solid red;
+} */
+
+/* input:read-only {
+    border: 5px solid red;
+} */
+
+/* input:read-write {
+    border: 5px solid red;
+} */
+
+/* label {
+    color: red;
+    opacity: 1;
+    transition: .3s;
+}
+
+input:placeholder-shown + label {
+    opacity: 0;
+} */
+
+/* input:placeholder-shown {
+    border: 5px solid red;
+}
+
+input {
+    border: 5px solid lime;
+} */
+
+
+/* input:checked + label {
+    color: lime;
+}
+
+label {
+    color: red;
+} */
+
+/* label {
+    color: red;
+}
+
+:indeterminate + label {
+    color: orange;
+}
+
+input:checked + label {
+    color: lime;
+} */
+
+
+/* input {
+    outline: none;
+}
+
+input:valid {
+    border: 5px solid lime;
+}
+
+input:invalid {
+    border: 5px solid red;
+} */
+
+/* input {
+    outline: none;
+}
+
+input:in-range {
+    border: 5px solid lime;
+}
+
+input:out-of-range {
+    border: 5px solid red;
+} */
+
+
+/* input:optional + label {
+    color: lime;
+}
+
+input:required + label {
+    color: red;
+} */

@@ -1,0 +1,80 @@
+/*******************************************
+*      Location Pseudo Class Selector      *
+********************************************/
+
+/* 
+    * It will work with <a> tag
+    * :link --> It is unvisited state of a link / <a> tag
+    * :visited --> It is visited state of a link / <a> tag
+*/
+
+/* a {
+    color: red;
+} */
+
+/* a:link {
+    color: red;
+}
+
+a:visited {
+    color: lime;
+} */
+
+/* LoVe */
+
+/*******************************************
+*     User Action Pseudo Class Selector    *
+********************************************/
+
+
+
+/* a:hover {
+    color: #fff;
+    background-color: blueviolet;
+} */
+
+/* a:focus {
+    color: red;
+    background-color: lime;
+}
+
+a:active {
+    color: lime;
+    background-color: #000;
+    font-size: 24px;
+} */
+
+/* a:active {
+    color: red;
+    background-color: violet;
+} */
+
+/*******************************************
+*      Structural Pseudo Class Selector    *
+********************************************/
+
+/* 
+    * :root --> It is a special structural pseudo class selector which can be used to target the root element of the document such as "html", "svg"
+*/
+
+/* :root {
+    color: red;
+    --blue: #398af4;
+    --red: #ff4499;
+    --font-serif: sans-serif;
+}
+
+p {
+    color: var(--red);
+    font-family: var(--font-serif);
+}
+
+h2 {
+    color: var(--red);
+    font-family: var(--font-serif);
+} */
+
+/* h1:empty {
+    border: 1px solid red;
+    height: 10px;
+} */

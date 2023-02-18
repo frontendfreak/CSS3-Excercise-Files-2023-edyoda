@@ -1,0 +1,65 @@
+/* p::first-letter {
+    color: red;
+    font-size: 30px;
+} */
+
+/* p::first-line {
+    color: red;
+    font-size: 30px;
+} */
+
+/* p::selection {
+    color: red;
+    background-color: #000;
+} */
+
+/* input::placeholder {
+    color: red;
+    text-indent: 20px;
+} */
+
+/* li {
+    color: red;
+} */
+
+/* ::marker {
+    color: red;
+} */
+
+/* p::before {
+    content: '🍕🍕🍕';
+}
+
+p::after {
+    content: ' 🍕🍕🍕';
+} */
+
+/* ::before {
+    content: '🍕🍕';
+} */
+
+/* img::before {
+    content: "Wow";
+}
+
+input::before {
+    content: "Wow";
+} */
+
+img {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+img::before {
+    content: "";
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-image: url(../img/404.jpg);
+    background-position: center;
+    background-size: cover;
+}

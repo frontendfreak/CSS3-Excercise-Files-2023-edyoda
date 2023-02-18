@@ -96,7 +96,7 @@
     color: red;
 } */
 
-/* ! 4. Ending with given cahracter or word */
+/* ! 5. Ending with given cahracter or word */
 
 /* [href $= ".doc"] {
     color: red;
@@ -110,7 +110,7 @@
     color: gold;
 } */
 
-/* ! 4. Search with any given cahracter or word wherever it is  */
+/* ! 6. Search with any given cahracter or word wherever it is  */
 
 /* [href *= "."] {
     color: red;
@@ -122,4 +122,46 @@
 
 /* [title *= "h"] {
     color: red;
+} */
+
+
+/* 
+    * Attribute and its value case sensitivity
+*/
+
+/* .para {
+    color: red;
+}
+
+.Para {
+    color: lime;
+}
+
+.pAra {
+    color: blue;
+} */
+
+/* [class] {
+    color: lime;
+} */
+
+/* [CLASS] {
+    color: lime;
+} */
+
+/* [TITle="Para1"] {
+    color: red;
+} */
+
+/* [TITle="Para2"] {
+    color: red;
+} */
+
+
+/* [CLASS="para"] {
+    color: lime;
+} */
+
+/* [class="PARA" i] {
+    color: lime;
 } */
