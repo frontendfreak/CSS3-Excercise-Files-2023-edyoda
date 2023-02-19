@@ -1,0 +1,47 @@
+ul {
+    /* display: inline-block; */
+    /* border: 1px solid red; */
+    /* padding: 0; */
+    /* list-style-type: none; */
+    /* list-style-type: disc; */
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    /* list-style-type: decimal; */
+    /* list-style-type: lower-roman; */
+    /* list-style-type: upper-roman; */
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: upper-alpha; */
+
+
+    /* list-style-type: lower-greek; */
+    /* list-style-type: georgian; */
+
+    /* list-style-type: telugu; */
+    /* list-style-type: kannada; */
+    /* list-style-type: tamil; */
+    /* list-style-type: malayalam; */
+
+    /* list-style-type: gujarati; */
+    /* list-style-type: urdu; */
+    /* list-style-type: persian; */
+    /* list-style-type: bengali; */
+    /* list-style-type: hebrew; */
+    /* list-style-type: gurmukhi; */
+    /* list-style-type: devanagari;  */
+
+
+    /* list-style-position: inside; */
+    /* list-style-position: outside; */
+
+    /* list-style-image: url(https://picsum.photos/15/15); */
+
+    /* list-style:  bengali outside; */
+}
+
+/* li::before {
+    content: '🍕' ' ';
+} */
+
+/* li {
+    display: inline-block;
+} */

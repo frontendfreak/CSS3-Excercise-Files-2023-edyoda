@@ -1,0 +1,70 @@
+/* #para {
+    color: gold;
+}
+
+.para {
+    color: crimson;
+    font-size: 24px;
+    background-color: green;
+}
+
+p {
+    color: red;
+}
+
+
+.para {
+    color: greenyellow;
+} */
+
+
+/* #pm {
+    color: red !important;
+}
+
+.cm {
+    color: lime !important;
+} */
+
+/* .cm {
+    color: lime !important;
+}
+
+p {
+    color: magenta;
+} */
+
+
+/* p {
+    color: red !important;
+} */
+
+
+/* #art {
+    color: red !important;
+}
+
+p {
+    color: lime;
+} */
+
+/* p.para.para#para#para {
+    color: lime !important;
+}
+
+p#para#para.para {
+    color: blue !important;
+} */
+
+/* p.para.para1.para2#para[title]:not(.para) {
+    color: lime !important;
+} */
+
+
+/* 
+    * There is no specificity for the following selectors
+
+    ~, > , +, space combinator
+    *
+    :not()
+*/

@@ -1,0 +1,219 @@
+/* 
+    * Distance Units
+    * Quantities Units
+    * Functional Notation
+*/
+
+/* 
+    * Distance Units
+    1. Absolute Units
+    2. Relative Units
+*/
+
+
+/* 
+    1. Absolute Units
+*/
+/* p:nth-child(1) {
+    background-color: gold;
+    width: 100px;
+}
+
+p:nth-child(2) {
+    background-color: gold;
+    width: 100pt;
+    
+        1pt = 1.328px
+   
+}
+
+p:nth-child(3) {
+    background-color: gold;
+    width: 10pc;
+    
+        1pc (Picas) = 16px
+   
+}
+
+p:nth-child(4) {
+    background-color: gold;
+    width: 40q;
+    
+        1q (Quater milimeter) = 40q = 10mm
+   
+}
+
+p:nth-child(5) {
+    background-color: gold;
+    width: 10mm;
+    
+        1q (Quater milimeter) = 40q = 10mm
+   
+}
+
+p:nth-child(6) {
+    background-color: gold;
+    width: 1cm;
+    
+        1q (Quater milimeter) = 40q = 10mm
+   
+}
+
+p:nth-child(7) {
+    background-color: gold;
+    width: 1in;
+    
+        1in (in) = 96px
+   
+} */
+
+
+/* 
+    2. Relative Units
+*/
+
+/********************************************
+*            Relative to Fonts              *
+*********************************************/
+
+/* :root {
+    font-size: 10px;
+}
+
+div {
+    border: 5px solid red;
+    background-color: gold;
+    height: 100px;
+} */
+
+/* div.div1 {
+    font-size: 2em;
+    width: 1em;
+    height: 1em;
+}
+
+div.div2 {
+    font-size: 2em;
+    width: 1em;
+    height: 1em;
+}
+
+div.div3 {
+    font-size: 2rem;
+    width: 1em;
+    height: 1em;
+} */
+
+
+/* 
+    * em -- it will always check the first occurance of fon-size value
+
+    * rem - it will always check the root/html fon-size value
+
+*/
+
+
+/* 
+    * ch - width of digit zero
+    * It will always vary based on the font family
+*/
+/* p {
+    background-color: gold;
+    width: 1ch;
+} */
+
+
+
+/* 
+    * ex - height of small letter x
+    * It will always vary based on the font family
+*/
+
+/* p {
+    background-color: gold;
+    font-family: sans-serif;
+    height: 2ex;
+} */
+
+
+/********************************************
+*            Relative to Viewports          *
+*********************************************/
+
+* {
+    margin: 0;
+}
+
+/* div {
+    background-color: gold;
+    width: 50vmin;
+    height: 50vmax;
+} */
+
+/********************************************
+*             Relative to Parent            *
+*********************************************/
+
+/* html {
+    background-color: lime;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: red;
+    height: 50%;
+    width: 50%;
+}
+
+div {
+    background-color: gold;
+    height: 100%;
+    width: 100%;
+} */
+
+
+
+/* 
+    * Quantities Units
+    1. Angle
+    2. Duration (Time)
+    3. Frequency X
+*/
+
+/* body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    transform: translateX(300px) rotate(-5turn) ;
+    transition: .5s;
+} */
+
+/* 360 deg = 400 gradians = 6.28radian = 1 turn */
+/* deg/grad/rad/turn */
+/* Positive / Negative values are allowed */
+
+
+/* 
+    * Duration units
+    1. s (second) 1000ms = 1s
+    2. ms (mili second)
+*/
+
+
+/* 
+    * Functional Notation
+*/
+
+/* div {
+    background-color: gold;
+    width: calc(150vw / 2);
+    height: 100vh;
+} */
