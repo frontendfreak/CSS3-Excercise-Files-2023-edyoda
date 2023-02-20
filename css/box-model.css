@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: gold;
+
+    width: 200px;
+    height: 200px;
+
+    /* position: relative; */
+
+    /* min-width: 300px;
+    max-width: 1000px; */
+
+    /* min-height: 300px;
+    max-height: 500px; */
+
+    /* border: 5px solid red; */
+
+    /* color: red; */
+
+    /* border-width: 20px; */
+
+    /* border-style: none; */
+    /* border-style: solid; */
+    /* border-style: dashed; */
+    /* border-style: dotted; */
+    /* border-style: double; */
+    /* border-style: groove; */
+    /* border-style: ridge; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+
+    /* border-color: red; */
+
+    /* border-top: 10px solid red;
+    border-right: 20px dotted lime;
+    border-bottom: 30px dashed yellow;
+    border-left: 40px groove magenta; */
+
+
+    /* border-top-width: 20px;
+    border-top-style: solid;
+    border-top-color: red; */
+
+
+    /* border-width: 10px 20px 30px 40px;
+    border-style: solid dotted double groove;
+    border-color: red lime magenta maroon; */
+
+    /* border-width: 50px;
+    border-style: solid;
+    border-color: transparent transparent red; */
+
+    
+
+    /* padding: 20px; */
+
+    /* padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+
+    /* padding: 20px 30px 40px 50px; */
+
+
+    /* margin: 20px; */
+
+    /* display: inline-block; */
+    /* margin: 40px; */
+    /* margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 50px; */
+
+    /* margin: 20px 40px 60px 80px; */
+
+    /* margin: 20px; */
+
+    /* margin: 0 auto; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+
+
+    /* background-clip: content-box;
+    outline: 20px solid purple; */
+    /* outline-offset: 20px; */
+
+    /* border: 20px solid red;
+
+    padding: 20px;
+    
+    margin: 20px; */
+
+    /* box-sizing: content-box; */
+    /* box-sizing: border-box; */
+
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    /* overflow: scroll; */
+
+
+
+    /* border-radius: 250px; */
+    /* border-radius: 50%; */
+
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px; */
+
+    /* border-radius: 40px 60px 80px 100px; */
+    /* border-radius: 60%; */
+
+    /* border-radius: 100px 200px 250px 300px / 100px 150px 200px 250px; */
+
+
+    /* box-shadow: x-offset y-offset blur-radius spread color inset; */
+
+    /* color: red; */
+
+    /* box-shadow: 10px -10px 10px 10px gray; */
+
+    /* box-shadow: 200px 200px 0px 0 red,
+    -200px -200px 0px 0 purple,
+    -200px 200px 0px 0 lime,
+    200px -200px 0px 0 maroon; */
+
+    box-shadow: 0 0 0 10px red,
+    0 0 0 20px lime,
+    0 0 0 30px maroon,
+    0 0 0 40px yellow;
+}
+
+/* div::after {
+    content: '';
+    display: inline-block;
+    border: 10px solid gold;
+    position: absolute;
+    right: 30px;
+    bottom: -10px;
+    transform: rotate(45deg);
+} */
+
+
+/* div:nth-child(1) {
+    margin-bottom: 40px;
+}
+
+div:nth-child(2) {
+    margin-top: 60px;
+} */
+
+/* p {
+    width: 300px;
+} */
