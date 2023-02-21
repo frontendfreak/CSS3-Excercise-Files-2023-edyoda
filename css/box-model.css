@@ -135,10 +135,10 @@ div {
     -200px 200px 0px 0 lime,
     200px -200px 0px 0 maroon; */
 
-    box-shadow: 0 0 0 10px red,
+    /* box-shadow: 0 0 0 10px red,
     0 0 0 20px lime,
     0 0 0 30px maroon,
-    0 0 0 40px yellow;
+    0 0 0 40px yellow; */
 }
 
 /* div::after {
