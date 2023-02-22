@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 300vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.container {
+    border: 10px solid black;
+    background-color: gold;
+}
+
+.box {
+    /* display: grid;
+    place-content: center;
+
+
+    width: 100px;
+    height: 100px; */
+    /* color: #fff;
+    font-size: 24px;
+    border: 1px solid lime;
+    background-color: crimson;
+
+    width: 100px;
+    height: 200px;
+    padding: 20px; */
+
+    /* transform: rotate(45deg); */
+
+    /* margin: 20px; */
+
+
+    /* display: block; */
+
+    /* display: inline; */
+
+    /* display: inline-block; */
+}
+
+
+/* 
+    1. Block Element
+        a. It will take 100% width of its parent element
+
+    2. Inline Element
+        a. It will take occupy space as per its content
+        b. In case if there is no space to display the content of an inline element, it break the line and will shift the remianing content in new line
+        c.It will not accept the following CSS properties:
+            i)   width
+            ii)  height
+            iii) margin-top
+            iv)  margin-bottom
+            v)   transform
+
+    3. Inline Block Element
+        a. It will work like a block element but it is going to occupy space as per its content similar to inline element
+*/
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    background-color: gold;
+
+    /* position: absolute; */
+}
+
+.box:nth-child(1) {
+    /* position: static; */
+
+    /* 
+        1. static (We can't use offset properties with this value)
+
+        2. relative
+        3. absolute
+        4. fixed
+        5. sticky
+    */
+
+    /* top: 100px; */
+    /* bottom: ; */
+    /* left: ; */
+    /* right: ; */
+
+    /* position: relative; */
+    /* top: 100px; */
+    /* left: 200px; */
+    /* bottom: 50px; */
+    /* right: 100px; */
+
+    /* top: -100px; */
+
+
+    /* position: absolute;
+    top: 300px;
+    left: 200px; */
+}
+
+
+.parent {
+    width: 500px;
+    height: 500px;
+    background-color: gold;
+    /* position: absolute; */
+    position: relative;
+}
+
+.child {
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    /* margin: 100px; */
+
+    position: absolute;
+    top: -100px;
+    left: 100px;
+
+}
+
+.grand-child {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    position: absolute;
+    /* top: 0px;
+    left: 0px; */
+    /* top: 0;
+    left: 0; */
+
+    right: 0;
+    top: 0;
+}
+
+/* .fixed {
+    width: 50px;
+    height: 50px;
+    background-color: lime;
+    border-radius: 50%;
+
+    position: fixed;
+
+    right: 40px;
+    bottom: 40px;
+} */
+
+
+
+
+
+/* .box:nth-child(5) {
+    position: sticky;
+    bottom: 100px;
+} */
+
+/* .box {
+    position: absolute;
+}
+
+.box:nth-child(1) {
+    top: 40px;
+    left: 40px; 
+    z-index: 5;  
+}
+
+.box:nth-child(2) {
+    top: 80px;
+    left: 80px;  
+    z-index: 4;   
+}
+
+.box:nth-child(3) {
+    top: 120px;
+    left: 120px;   
+    z-index: 3;  
+}
+
+.box:nth-child(4) {
+    top: 160px;
+    left: 160px;   
+    z-index: 2;  
+}
+
+.box:nth-child(5) {
+    top: 200px;
+    left: 200px;   
+
+} */
