@@ -44,22 +44,25 @@
 }
 
 .img-box::before {
-    /* content: '';
+    content: '';
     display: inline-block;
     width: 150px;
-    height: 150px; */
-    /* border-radius: 50%; */
-    background-color: blueviolet;
+    height: 150px;
+    border-radius: 50%;
+    background-color: hsl(271, 76%, 70%);
 
-    /* position: absolute;
-    top: 20px;
-    left: 30px; */
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 75px);
+
+    box-shadow: 0 0 0 10px hsl(271, 76%, 60%),
+    0 0 0 20px hsl(271, 76%, 50%);
 }
 
 .img-box img {
     width: 100%;
     transition: .3s;
-    filter: drop-shadow(-10px 10px 4px #777);
+    filter: drop-shadow(-10px 10px 4px #303030);
 }
 
 .product-info {
